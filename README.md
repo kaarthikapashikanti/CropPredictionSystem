@@ -17,13 +17,21 @@ Copy code
 CropPredictionSystem/
 │
 ├── analysis/         # Exploratory Data Analysis (EDA) notebooks and reports
+
 ├── data/             # Raw datasets
+
 ├── ml/               # Core logic for model training and saving the accurate model
+
 ├── src/              # Core logic (preprocessing, modeling, utility functions)
+
 ├── streamlit_app  # Streamlit app for deployment
+
 ├── run_pipeline.py   # Main script to run the full ML pipeline
+
 ├── requirements.txt  # Required Python packages
+
 └── README.md         # Project documentation
+
 🧩 Pipeline Workflow
 Data Ingestion: Load and explore raw data.
 
