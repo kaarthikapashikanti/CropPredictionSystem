@@ -55,7 +55,7 @@ Clone the repository
 
 bash
 Copy code
-git clone https://github.com/your-username/CropPredictionSystem.git
+git clone https://github.com/kaarthikapashikanti/CropPredictionSystem.git
 cd CropPredictionSystem
 Install dependencies
 
