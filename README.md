@@ -67,27 +67,30 @@ git clone https://github.com/kaarthikapashikanti/CropPredictionSystem.git
 cd CropPredictionSystem
 Install dependencies
 
-bash
-Copy code
+
+
 pip install -r requirements.txt
 Run the ML pipeline
 
-bash
-Copy code
+
+
 python run_pipeline.py
 Launch the Streamlit app
 
-bash
-Copy code
+
+
 streamlit run streamlit_app.py
+
 ✨ Usage
 Enter soil and weather parameters (like N, P, K, temperature, humidity, pH, rainfall).
+
 
 Get an instant recommendation for the most suitable crop!
 
 📊 Sample Input
-Nitrogen	Phosphorus	Potassium	Temperature	Humidity	pH	Rainfall
-90	42	43	23.4°C	80%	6.5	200 mm
+Nitrogen  | Phosphorus  | Potassium  | Temperature  | Humidity  | pH   | Rainfall
+90        | 42          | 43         | 23.4°C       | 80%       | 6.5  | 200 mm
+
 Prediction: 🥦 Broccoli
 
 🙌 Contribution
