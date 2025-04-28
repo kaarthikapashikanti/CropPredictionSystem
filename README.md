@@ -89,6 +89,7 @@ Get an instant recommendation for the most suitable crop!
 
 📊 Sample Input
 Nitrogen  | Phosphorus  | Potassium  | Temperature  | Humidity  | pH   | Rainfall
+
 90        | 42          | 43         | 23.4°C       | 80%       | 6.5  | 200 mm
 
 Prediction: 🥦 Broccoli
