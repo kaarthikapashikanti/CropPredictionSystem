@@ -1,0 +1,16 @@
+name: crop_conda_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - streamlit
+  - pip
+  - pip:
+      - xgboost
+      - joblib
